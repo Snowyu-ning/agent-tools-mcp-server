@@ -1,0 +1,24 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: agent-tools-mcp-server
+  ai:
+    mcp:
+      server:
+        name: agent-tools-mcp-server
+        version: 1.0.0
+        stdio: false
+        type: SYNC
+        sse-endpoint: /sse
+        # SSE 服务端推送端点
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/agent_db?useSSL=false&serverTimezone=UTC&characterEncoding=utf8&allowPublicKeyRetrieval=true
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      timeout: 3000ms
