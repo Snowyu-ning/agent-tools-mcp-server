@@ -1,4 +1,5 @@
 # Agent Tools MCP Server
+[![M8ven Score](https://m8ven.ai/badge/mcp/snowyu-ning-agent-tools-mcp-server-zlh8q1?v=b36b591b92b46177b408b9ca4686b702)](https://m8ven.ai/mcp/snowyu-ning-agent-tools-mcp-server-zlh8q1?s=readme)
 
 > 基于 MCP（Model Context Protocol）协议的工具服务，为 Agent 应用提供 SQL 分析、Redis 分析、代码分析三类标准化工具。
 
